@@ -22,3 +22,19 @@ javascript:
     remove_hovercards();
     window.addEventListener('scroll', remove_hovercards);
 })();
+
+// For the Tampermonkey - Chrome extension
+// https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en
+//
+// To use with Tampermonkey, just replace the first line of this file, (the ``javascript:'' line)
+// with these comment lines:
+
+// ==UserScript==
+// @name         Hovercraft
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  Remove annoying Facebook popups
+// @author       me@clojure.us
+// @match        https://www.facebook.com/
+// @grant        none
+// ==/UserScript==
