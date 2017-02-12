@@ -1,7 +1,10 @@
 ## Bookmarklets
 Javascript snippets to remove unpleasant features from websites.
 
-* www.facebook.com.js - disable mouse hover popups (removes the `data-hover` attributes `data-hovercard`)
+* [www.facebook.com.js](https://github.com/craig-ludington/bookmarklets/blob/master/www.facebook.com.js)
+
+Disable mouse hover popups (removes the `data-hover` and `data-hovercard` attributes on scroll)
+
 
 ### Install
 
